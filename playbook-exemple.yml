@@ -42,3 +42,13 @@
       npm:
         name: gatsby-cli
         global: yes 
+  
+    - name: Créer un nouveau projet Gatsby
+      command: gatsby new ansible-projet
+    
+    
+
+    - name: Installer Apache
+      package:
+        name: httpd  # Nom du package Apache sur certaines distributions
+        state: present
