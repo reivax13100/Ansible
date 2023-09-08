@@ -44,9 +44,9 @@
         global: yes 
   
     - name: Créer un nouveau projet Gatsby
-      command: gatsby new ansible-projet
+      command: gatsby new ansible-projet --skip-git
     
-    
+
 
     - name: Installer Apache
       package:
