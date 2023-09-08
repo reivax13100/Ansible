@@ -46,7 +46,7 @@
     - name: Créer un nouveau projet Gatsby
       command: gatsby new ansible-projet --skip-git
       args:
-        chdir: /ansible
+        chdir: /HOME/ansible
 
 
     - name: Installer Apache
