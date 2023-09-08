@@ -24,7 +24,7 @@
 #   # Par exemple, si un fichier de configuration est modifié, un service peut avoir besoin d'être rechargé.
 
 - name: playbook-exemple
-  hosts: target1  # Le groupe d'hôtes cible
+  hosts: target  # Le groupe d'hôtes cible
   become: yes  # Utiliser sudo pour exécuter les commandes en tant qu'administrateur
 
   tasks:
